@@ -2,7 +2,9 @@ import media
 import fresh_tomatoes
 
 # The first step for this project is to build several Movie instances detailing
-# several movies we want to display.
+# several movies we want to display. We then use the
+# fresh_tomatoes.open_movies_page function to create the html page by passing
+# in a list of the movie instances we created.
 
 # The basic format for creating a movie object is
 # movie = media.Movie(
