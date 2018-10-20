@@ -4,16 +4,14 @@ import fresh_tomatoes
 # The first step for this project is to build several Movie instances detailing
 # several movies we want to display.
 
-#The basic format for creating a movie object is
-'''
-movie = media.Movie(
-    "Movie Title",
-    "Movie Summary",
-    "url to image of movie poster",  # NOQA
-    "hurl to the movie's trailer on youtube")
-'''
-#Use the above format to create new movie objects. Once a new movie is
-#created add it to the movies list at the bottom of the script.
+# The basic format for creating a movie object is
+# movie = media.Movie(
+#    "Movie Title",
+#    "Movie Summary",
+#    "url to image of movie poster",  # NOQA
+#    "hurl to the movie's trailer on youtube")
+# Use the above format to create new movie objects. Once a new movie is
+# created add it to the movies list at the bottom of the script.
 
 # Construct a Movie instance for Toy Story.
 toy_story = media.Movie(
